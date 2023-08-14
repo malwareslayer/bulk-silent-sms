@@ -1,2 +1,1 @@
-# bulk-silent-sms
-Just Bulking Silent SMS To Validate Number Is Active Or Not
+Validating number is online or not through SMS without getting caught as SPAM
