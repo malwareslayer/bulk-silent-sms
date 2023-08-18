@@ -56,6 +56,12 @@ android {
             excludes += "/META-INF/io.netty.versions.properties"
         }
     }
+
+    configurations {
+        all {
+            exclude("io.netty", module = "netty-all")
+        }
+    }
 }
 
 dependencies {
@@ -78,8 +84,16 @@ dependencies {
 
     implementation("io.ktor:ktor-server-core-jvm:2.3.3")
     implementation("io.ktor:ktor-server-netty-jvm:2.3.3")
+
     implementation("io.ktor:ktor-server-status-pages-jvm:2.3.3")
     implementation("io.ktor:ktor-server-default-headers-jvm:2.3.3")
     implementation("io.ktor:ktor-server-content-negotiation:2.3.3")
     implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.3")
+
+    implementation("org.mobicents.protocols.ss7.map:map-impl:8.0.112") {
+        exclude("org.mobicents.protocols.ss7.mtp", module = "mtp-api")
+        exclude("org.mobicents.protocols.ss7.mtp", module = "mtp")
+        exclude("org.mobicents.protocols.ss7.sccp", module = "sccp-api")
+        exclude("org.mobicents.protocols.ss7.sccp", module = "sccp")
+    }
 }

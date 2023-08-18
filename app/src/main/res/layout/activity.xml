@@ -4,13 +4,13 @@
                 android:layout_height="match_parent">
 
     <TextView
-            android:id="@+id/logger"
+            android:id="@+id/viewer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="vertical"
             android:scrollbarStyle="insideInset"
             android:fadeScrollbars="false"
             android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textSize="14sp"/>
 
 </RelativeLayout>
