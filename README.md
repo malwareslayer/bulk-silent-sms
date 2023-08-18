@@ -1,6 +1,8 @@
 # bulk-silent-sms
 
-This tools intended to verification if phone number is online, offline, or airplane by sending Silent SMS (SMS that not pop up notification to destination phone number) but in programmable bulk through API Ktor 
+This tools intended to verification if phone number is online, offline, or airplane by sending Silent SMS (SMS that not pop up notification to destination phone number) but in programmable bulk through API Ktor.
+
+This program and payload is based from [itds-consulting/android-silent-ping-sms](https://github.com/itds-consulting/android-silent-ping-sms)
 
 ---
 
