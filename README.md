@@ -17,7 +17,7 @@ Grant manually, app permissions otherwise it didn't work.
 Send the payload through your ip addres that appear in the `MainActivity` with `phone` have prefix country number otherwise it didn't work.
 
 ```
-{"phone": "+628123456789"}
+{"number": "+628123456789"}
 ```
 
 ---
